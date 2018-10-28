@@ -1,0 +1,206 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 23:42:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-09 14:33:43
+*/
+/* 开始------------------------------------------------- */
+body{
+	/* box-sizing: border-box; */
+}
+#m_goods1{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+.m_big2{
+	width: 1230px;
+	margin:0 auto;
+}
+a:hover{
+	opacity: 0.8;
+}
+.m_big2 .m_topimg {
+	width: 100%;
+	height: 90px;
+	margin:0 auto;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+/*.m_big2 .m_topimg::after{
+	display: block;
+}*/
+.m_big2 .m_topimg img{
+	width: 1620px;
+	height: 90px;
+	display: block;
+	margin-left: -165px;
+}
+.m_big2 .m_headerTwo{
+	width: 100%;
+	height: 28px;
+	margin-bottom: 15px;
+}
+.m_big2 .m_headerTwo .B{
+	width: 5px;
+	height: 18px;
+	background-color:#333333;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+.m_big2 .m_headerTwo .f1{
+	display: inline-block;
+	line-height: 28px;
+	margin-left: 8px;
+	font-size: 16px;
+}
+.m_headerTwo ul{
+	float: right;
+}
+.m_headerTwo ul li{
+	line-height: 28px;
+	float: left;
+	margin-left:25px;
+	font-size: 14px;
+}
+.m_headerTwo ul li a{
+	text-decoration: none;
+	color: black;
+}
+.m_headerTwo ul li a:hover{
+	text-decoration: underline;
+}
+.m_bodysTwo{
+	width: 100%;
+	/*height: 618px;*/
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.m_bodysTwo .imgdT{
+	width: 235px;
+	height: 618px;
+	float: left;
+	position: relative;
+}
+.m_bodysTwo .imgdT a img{
+	width: 235px;
+	height: 618px;
+}
+.m_bodysTwo .imgdT a .adT{
+	width: 218px;
+	height: 64px;
+	position: absolute;
+	bottom:20%;
+	vertical-align: middle;
+	display: block;
+}
+.m_bodysTwo .imgdT a .adT .lefts{
+	width: 70px;
+	height: 64px;
+	background-color: rgba(0,0,0,0.9);
+	overflow: hidden;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+}
+.m_bodysTwo .imgdT a .adT .lefts .fo{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 24px;
+	font-size: 18px;
+	width: 36px;
+	overflow: hidden;
+}
+.m_bodysTwo .imgdT a .adT .rights{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+	width: 128px;
+	height: 64px;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.m_bodysTwo .imgdT a .adT .rights .ris{
+	/*width: 114px;
+	height: 48px;*/
+	margin-top: 8px;
+	margin-left: 14px;
+
+}
+.m_bodysTwo .imgdT a .adT .rights .ris .titles{
+	display: block;
+	line-height: 24px;
+	font-size: 18px;
+
+}
+.m_bodysTwo .imgdT a .thirdimg{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	bottom:20px;
+	left:180px;
+
+}
+.m_bodysTwo .rightT{
+	width: 980px;
+	height: 618px;
+	margin-left: 14px;
+	float: left;
+
+}
+.m_bodysTwo .rightT .box{
+	width: 234px;
+	height: 300px;
+	/*border: 1px solid red;*/
+	border: 1px solid transparent;
+	float: left;
+	display: block;
+	text-align: center;
+	background-color: white;
+	margin-right: 12px;
+}
+.m_bodysTwo .rightT #x1{
+	margin: 0px;
+}
+.m_bodysTwo .rightT #x2{
+	margin-top: 14px;
+}
+.m_bodysTwo .rightT #x3{
+	margin-top: 14px;
+	margin-right: 0px;
+}
+.m_bodysTwo .rightT .box:hover{
+	border: 1px solid red;
+	opacity: 0.8;
+}
+.m_bodysTwo .rightT .box a{
+	width: 234px;
+	height: 300px;
+	color: black;
+	text-decoration: none;
+}
+.m_bodysTwo .rightT .box img{
+	width: 185px;
+	height: 185px;
+	margin:20px 25px 8px 25px;
+}
+.m_bodysTwo .rightT .box .font4{
+	width: 135px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 8px auto;
+	overflow: hidden;
+	color: #333;
+}
+.m_bodysTwo .rightT .box .dollar4{
+	width: 234px;
+	height: 18px;
+	font-size: 18px;
+	color: red;
+}

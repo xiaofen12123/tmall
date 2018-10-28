@@ -1,0 +1,97 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 23:42:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-09 11:36:44
+*/
+
+@charset "utf-8";
+
+/* 开始------------------------------------------------- */
+
+#main{
+	width: 100%; 
+}
+#x_goods2{
+	background-color:#f5f5f5; 
+	margin: 30px auto 0;
+	padding-right: 5%;
+	padding-left: 5%;
+	box-sizing: border-box;
+}
+#x_goods2 ul li{
+	list-style-type: none;
+}
+#x_goods2 a{
+	text-decoration: none;
+}
+#main #x_goods2 h2{
+	margin: 0 auto;
+	width: 100%;
+	height: 43px;
+	text-align: center;
+	font-size: 18px;
+	font-family: "Microsoft YaHei", SimSun, sans-serif, 方正兰亭黑;
+	color: #666;
+	font-weight: normal;
+}
+#main #x_goods2 h2::before{
+	content: "———  ";
+	color: #979797;
+}
+#main #x_goods2 h2::after{
+	content: "  ———";
+	color: #979797;	
+}
+#main #x_goods2 h2 .icon{
+	color: #ff0036;
+	font-size: 20px;
+}
+#main #x_goods2 ul{
+	overflow: hidden;
+	display: flex;
+	margin-top: 
+}
+#main #x_goods2 ul li{
+	float: left;
+	flex: 1;
+	color: #ff0036;
+	margin-left: 1%;
+	box-sizing: border-box;
+	margin-bottom: 7px;
+}
+#main #x_goods2 .x_ul2 li a{
+    background-color: #fff;
+}
+#main #x_goods2 ul li a{
+	display: block;
+	color: #666;
+	height: 315px;
+	border: solid 2px #fff;
+	text-align: center;
+	margin-bottom: 8px;
+}
+#main #x_goods2 ul li a figure{
+	font-size: 14px;
+	overflow: hidden;
+	margin: 20px auto 0;
+	width: 80%;
+}
+#main #x_goods2 ul li a figcaption{
+    height: 40px;
+    width: 135px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+#main #x_goods2 ul li a img{
+	width: 185px;
+	height: 185px;
+}
+#main #x_goods2 ul li a span{
+	display: block;
+	height: 33px;
+	line-height: 22px;
+	margin-top: 10px;
+	color: #ff0036;
+}

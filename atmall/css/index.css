@@ -1,0 +1,42 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 23:42:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-09 11:37:28
+*/
+
+#main > div {
+	width: 100%;
+	min-width: 1230px;
+}
+#l_head {
+	height: 168px;
+	/*background-color: #EEEEEE;*/
+}
+#y_slide {
+	height: 536px;
+}
+#y_brand {
+	height: 745px;
+}
+#m_tmall {
+	height: 1362px;
+	background-color: yellow;
+}
+#m_goods1 {
+	height: 3725px;
+	background-color: orange;
+}
+#x_goods2 {
+	height: 6770px;
+	background-color: purple;
+}
+#x_footer {
+	height: 546px;
+	background-color: blue;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
